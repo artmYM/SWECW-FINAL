@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+
+.edit-timesheet-wrapper {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(196, 255, 0, 0.1);
+    color: #fff;
+    border: 1px solid #C4FF00;
+  }
+  
+  .edit-timesheet-wrapper h3 {
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+
+  .edit-timesheet-wrapper h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .edit-timesheet-wrapper p {
+    color: #bbb;
+  }
+  
+  .edit-timesheet-wrapper input[type="date"],
+  .edit-timesheet-wrapper input[type="number"],
+  .edit-timesheet-wrapper textarea {
+    width: 100%;
+    padding: 10px;
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: #eee;
+    margin-bottom: 10px;
+  }
+  
+  .edit-timesheet-wrapper button {
+    background: transparent;
+    color: #ccc;
+    border: 2px solid #C4FF00;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .edit-timesheet-wrapper button:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .edit-timesheet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .edit-timesheet-table th {
+    background: #222;
+    color: #C4FF00;
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+  }
+  
+  .edit-timesheet-table td {
+    padding: 12px 16px;
+    border-top: 1px solid #333;
+    color: #eee;
+  }
+  
+  .edit-timesheet-wrapper textarea {
+    resize: vertical;
+    min-height: 60px;
+  }
+  
+  .edit-timesheet-message {
+    color: #C4FF00;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  

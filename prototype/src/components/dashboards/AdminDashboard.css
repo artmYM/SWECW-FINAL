@@ -1,0 +1,81 @@
+.admin-dashboard {
+    margin-top: -60px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .admin-section {
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 0 12px rgba(196, 255, 0, 0.1);
+    border: 1px solid #C4FF00;
+  }
+  
+  .admin-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+    padding: 20px 25px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 0 12px rgba(196, 255, 0, 0.1);
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .admin-header h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .admin-table th {
+    background: #222;
+    color: #C4FF00;
+    text-align: left;
+    padding: 12px 16px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+  }
+  
+  .admin-table td {
+    padding: 16px 16px;
+    border-top: 1px solid #333;
+    color: #eee;
+    font-size: 16px;
+  }
+  
+  .add-user-btn {
+    background: transparent;
+    color: #ccc;
+    border: 2px solid #C4FF00;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  
+  .add-user-btn:hover {
+    background: #C4FF00;
+    color: #000;
+  }
+  

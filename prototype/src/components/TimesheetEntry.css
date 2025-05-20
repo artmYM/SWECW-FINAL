@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+
+.entry-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0e0e0e;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry-page .entry-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 40px 30px;
+  background: #1a1a1a;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: entryFadeIn 0.8s ease-in-out;
+  margin-top: -300px;
+}
+
+@keyframes entryFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.entry-page .entry-header {
+  text-align: center;
+  color: #C4FF00;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.entry-page .entry-underline {
+  width: 60px;
+  height: 4px;
+  background: #C4FF00;
+  border-radius: 4px;
+  margin: 0 auto 30px;
+}
+
+.entry-page .entry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.entry-page .entry-form label {
+  font-weight: 600;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.entry-page .entry-form input,
+.entry-page .entry-form textarea {
+  width: 93%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background: #2a2a2a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+  max-width: 100%;
+}
+
+.entry-page .entry-form input:focus,
+.entry-page .entry-form textarea:focus {
+  border-color: #C4FF00;
+  box-shadow: 0 0 10px #c4ff0044;
+}
+
+.entry-page .entry-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.entry-page .submit-entry-btn {
+  background: transparent;
+  color: #ccc;
+  border: 2px solid #C4FF00;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 14px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.entry-page .submit-entry-btn:hover {
+  background: #C4FF00;
+  color: #000;
+}
