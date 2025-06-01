@@ -1,4 +1,4 @@
-# SWECW
+# SWE CW
 
 # log in creds  
 ## When logging in, email and password should be set up using phpMyAdmin when running on XAMPP.
